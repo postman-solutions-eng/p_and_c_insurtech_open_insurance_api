@@ -1,0 +1,931 @@
+openapi: 3.0.0
+info:
+  title: Open Insurance CLUE API
+  contact: {}
+  version: '1.0'
+servers:
+- url: http://localhost:8081
+  variables: {}
+- url: https://localhost:8081
+  variables: {}
+paths:
+  /insurance-entity:
+    post:
+      tags:
+      - insurance-entity
+      summary: InsuranceEntity_POST
+      operationId: InsuranceEntity_POST
+      parameters: []
+      responses:
+        '201':
+          description: ''
+          headers: {}
+          content: {}
+      deprecated: false
+  /insurance-entity/{id}:
+    get:
+      tags:
+      - insurance-entity
+      summary: InsuranceEntityById_GET
+      operationId: InsuranceEntityById_GET
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '200':
+          description: ''
+          headers: {}
+          content: {}
+      deprecated: false
+    put:
+      tags:
+      - insurance-entity
+      summary: InsuranceEntityById_PUT
+      operationId: InsuranceEntityById_PUT
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '200':
+          description: ''
+          headers: {}
+          content: {}
+      deprecated: false
+    delete:
+      tags:
+      - insurance-entity
+      summary: InsuranceEntityById_DELETE
+      operationId: InsuranceEntityById_DELETE
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '204':
+          description: ''
+          headers: {}
+          content: {}
+      deprecated: false
+  /personal:
+    post:
+      tags:
+      - personal
+      summary: Personal_POST
+      operationId: Personal_POST
+      parameters: []
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+  /personal/{id}:
+    get:
+      tags:
+      - personal
+      summary: PersonalById_GET
+      operationId: PersonalById_GET
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+    put:
+      tags:
+      - personal
+      summary: PersonalById_PUT
+      operationId: PersonalById_PUT
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+    delete:
+      tags:
+      - personal
+      summary: PersonalById_DELETE
+      operationId: PersonalById_DELETE
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+  /commercial:
+    post:
+      tags:
+      - commercial
+      summary: Commercial_POST
+      operationId: Commercial_POST
+      parameters: []
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+  /commercial/{id}:
+    get:
+      tags:
+      - commercial
+      summary: CommercialById_GET
+      operationId: CommercialById_GET
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+    put:
+      tags:
+      - commercial
+      summary: CommercialById_PUT
+      operationId: CommercialById_PUT
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+    delete:
+      tags:
+      - commercial
+      summary: CommercialById_DELETE
+      operationId: CommercialById_DELETE
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+  /product:
+    post:
+      tags:
+      - product
+      summary: Product_POST
+      operationId: Product_POST
+      parameters: []
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+  /product/{id}:
+    get:
+      tags:
+      - product
+      summary: ProductById_GET
+      operationId: ProductById_GET
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+    put:
+      tags:
+      - product
+      summary: ProductById_PUT
+      operationId: ProductById_PUT
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+    delete:
+      tags:
+      - product
+      summary: ProductById_DELETE
+      operationId: ProductById_DELETE
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+  /coverage:
+    post:
+      tags:
+      - coverage
+      summary: Coverage_POST
+      operationId: Coverage_POST
+      parameters: []
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+  /coverage/{id}:
+    get:
+      tags:
+      - coverage
+      summary: CoverageById_GET
+      operationId: CoverageById_GET
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+    put:
+      tags:
+      - coverage
+      summary: CoverageById_PUT
+      operationId: CoverageById_PUT
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+    delete:
+      tags:
+      - coverage
+      summary: CoverageById_DELETE
+      operationId: CoverageById_DELETE
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+  /driver:
+    post:
+      tags:
+      - driver
+      summary: Driver_POST
+      operationId: Driver_POST
+      parameters: []
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+  /driver/{id}:
+    get:
+      tags:
+      - driver
+      summary: DriverById_GET
+      operationId: DriverById_GET
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+    put:
+      tags:
+      - driver
+      summary: DriverById_PUT
+      operationId: DriverById_PUT
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+    delete:
+      tags:
+      - driver
+      summary: DriverById_DELETE
+      operationId: DriverById_DELETE
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+  /vehicle:
+    post:
+      tags:
+      - vehicle
+      summary: Vehicle_POST
+      operationId: Vehicle_POST
+      parameters: []
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+  /vehicle/{id}:
+    get:
+      tags:
+      - vehicle
+      summary: VehicleById_GET
+      operationId: VehicleById_GET
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+    put:
+      tags:
+      - vehicle
+      summary: VehicleById_PUT
+      operationId: VehicleById_PUT
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+    delete:
+      tags:
+      - vehicle
+      summary: VehicleById_DELETE
+      operationId: VehicleById_DELETE
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+  /beneficiary:
+    post:
+      tags:
+      - beneficiary
+      summary: Beneficiary_POST
+      operationId: Beneficiary_POST
+      parameters: []
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+  /beneficiary/{id}:
+    get:
+      tags:
+      - beneficiary
+      summary: BeneficiaryById_GET
+      operationId: BeneficiaryById_GET
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+    put:
+      tags:
+      - beneficiary
+      summary: BeneficiaryById_PUT
+      operationId: BeneficiaryById_PUT
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+    delete:
+      tags:
+      - beneficiary
+      summary: BeneficiaryById_DELETE
+      operationId: BeneficiaryById_DELETE
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+  /receipt:
+    post:
+      tags:
+      - receipt
+      summary: Receipt_POST
+      operationId: Receipt_POST
+      parameters: []
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+  /receipt/{id}:
+    get:
+      tags:
+      - receipt
+      summary: ReceiptById_GET
+      operationId: ReceiptById_GET
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+    put:
+      tags:
+      - receipt
+      summary: ReceiptById_PUT
+      operationId: ReceiptById_PUT
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+    delete:
+      tags:
+      - receipt
+      summary: ReceiptById_DELETE
+      operationId: ReceiptById_DELETE
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+  /claim:
+    post:
+      tags:
+      - claim
+      summary: Claim_POST
+      operationId: Claim_POST
+      parameters: []
+      requestBody:
+        description: ''
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Claim'
+        required: true
+      responses:
+        '201':
+          description: ''
+          headers: {}
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Claim'
+      deprecated: false
+  /claim/{id}:
+    get:
+      tags:
+      - claim
+      summary: ClaimById_GET
+      operationId: ClaimById_GET
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '200':
+          description: ''
+          headers: {}
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Claim'
+      deprecated: false
+    put:
+      tags:
+      - claim
+      summary: ClaimById_PUT
+      operationId: ClaimById_PUT
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      requestBody:
+        description: ''
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Claim'
+        required: true
+      responses:
+        '200':
+          description: ''
+          headers: {}
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Claim'
+      deprecated: false
+    delete:
+      tags:
+      - claim
+      summary: ClaimById_DELETE
+      operationId: ClaimById_DELETE
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '204':
+          description: ''
+          headers: {}
+          content: {}
+      deprecated: false
+  /premium-bordereau:
+    post:
+      tags:
+      - premium-bordereau
+      summary: PremiumBordereau_POST
+      operationId: PremiumBordereau_POST
+      parameters: []
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+  /premium-bordereau/{id}:
+    get:
+      tags:
+      - premium-bordereau
+      summary: PremiumBordereauById_GET
+      operationId: PremiumBordereauById_GET
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+    put:
+      tags:
+      - premium-bordereau
+      summary: PremiumBordereauById_PUT
+      operationId: PremiumBordereauById_PUT
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+    delete:
+      tags:
+      - premium-bordereau
+      summary: PremiumBordereauById_DELETE
+      operationId: PremiumBordereauById_DELETE
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+  /claims-bordereau:
+    post:
+      tags:
+      - claims-bordereau
+      summary: ClaimsBordereau_POST
+      operationId: ClaimsBordereau_POST
+      parameters: []
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+  /claims-bordereau/{id}:
+    get:
+      tags:
+      - claims-bordereau
+      summary: ClaimsBordereauById_GET
+      operationId: ClaimsBordereauById_GET
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+    put:
+      tags:
+      - claims-bordereau
+      summary: ClaimsBordereauById_PUT
+      operationId: ClaimsBordereauById_PUT
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+    delete:
+      tags:
+      - claims-bordereau
+      summary: ClaimsBordereauById_DELETE
+      operationId: ClaimsBordereauById_DELETE
+      parameters:
+      - name: id
+        in: path
+        description: ''
+        required: true
+        style: simple
+        schema:
+          type: string
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+components:
+  schemas:
+    claimStatus:
+      title: claimStatus
+      enum:
+      - open
+      - closed
+      - reopened
+      type: string
+    Personal:
+      title: Personal
+      required:
+      - firstName
+      - lastName
+      type: object
+      properties:
+        firstName:
+          type: string
+          example: Example
+        lastName:
+          type: string
+          example: Example
+      description: KYC information for the policyholder
+    Driver:
+      title: Driver
+      required:
+      - name
+      - sex
+      - driver-dob
+      - is-primary-driver
+      - license
+      type: object
+      properties:
+        name:
+          type: string
+        sex:
+          type: string
+        driver-dob:
+          type: string
+        is-primary-driver:
+          type: string
+        license:
+          type: string
+      description: Information relating to vehicle user/s, primary and permitted driver, including medical conditions, conviction history and basic driving patterns
+    Claim:
+      title: Claim
+      required:
+      - claimNumber
+      - fnol
+      - loss-date
+      type: object
+      properties:
+        claimNumber:
+          type: string
+          example: Example
+        fnol:
+          type: string
+        loss-date:
+          type: string
+      description: notice of loss, claim status
+tags:
+- name: insurance-entity
+  description: ''
+- name: personal
+  description: ''
+- name: commercial
+  description: ''
+- name: product
+  description: ''
+- name: coverage
+  description: ''
+- name: driver
+  description: ''
+- name: vehicle
+  description: ''
+- name: beneficiary
+  description: ''
+- name: receipt
+  description: ''
+- name: claim
+  description: ''
+- name: premium-bordereau
+  description: ''
+- name: claims-bordereau
+  description: ''

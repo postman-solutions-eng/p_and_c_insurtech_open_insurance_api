@@ -1,0 +1,3032 @@
+{
+    "info": {
+        "_postman_id": "d8088833-d2de-41d6-adca-3159d1f36b76",
+        "name": "Open Insurance - Start Here",
+        "description": "*Open Insurance - [openinsurance.io](http://openinsurance.io)*\n\nPurpose of a common data standard:\n\n\n- This is the first step towards producing a common API spec for the insurance industry.\n- Specification for the definition of data properties, structures, relationships, technical names, and data types.\n- A domain model that is technology-agnostic and in comprehensible business terms.\nDefines requirements and common methodology.\n- A foundation for managing data quality and integrity.\n- A framework for database design\n\n![p](https://imgur.com/2hf62e1.png)",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "insurance-entity",
+            "item": [
+                {
+                    "name": "{id}",
+                    "item": [
+                        {
+                            "name": "InsuranceEntityById_GET",
+                            "id": "51b75086-bb3c-4a59-b5a5-07f1dcce1da6",
+                            "request": {
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/insurance-entity/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "insurance-entity",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "9d64842c-00b1-400a-9e86-8fb5c4dcd580",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "09c375d3-391b-484d-9a34-ceed447f6d34",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "GET",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/insurance-entity/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "insurance-entity",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        },
+                        {
+                            "name": "InsuranceEntityById_PUT",
+                            "id": "21ac11a3-1d2c-46a8-9134-59b2b589935a",
+                            "request": {
+                                "method": "PUT",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/insurance-entity/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "insurance-entity",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "1ff2ec2e-8e50-4647-9d3f-3e1d807bfbd9",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "ddb82606-4fcb-4fe6-aa0b-71ba1905dbf6",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "PUT",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/insurance-entity/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "insurance-entity",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        },
+                        {
+                            "name": "InsuranceEntityById_DELETE",
+                            "id": "57e35dab-d59b-46e1-97ca-2f41257f8207",
+                            "request": {
+                                "method": "DELETE",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/insurance-entity/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "insurance-entity",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "8471fc23-d927-4a9d-8734-1351fa093d3e",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "dfad4911-4c41-4cd0-80f5-3463f4cedabf",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "DELETE",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/insurance-entity/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "insurance-entity",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "No Content",
+                                    "code": 204,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "83f35dbd-21e7-47e4-97ab-d613e093e846"
+                },
+                {
+                    "name": "InsuranceEntity_POST",
+                    "id": "b2e0c872-caa8-46cc-b3fa-6902cfc0550e",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/insurance-entity",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "insurance-entity"
+                            ]
+                        }
+                    },
+                    "response": [
+                        {
+                            "id": "d5e0e9df-0372-428d-900b-4bd0130813ba",
+                            "name": "response",
+                            "originalRequest": {
+                                "method": "POST",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/insurance-entity",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "insurance-entity"
+                                    ]
+                                }
+                            },
+                            "status": "Created",
+                            "code": 201,
+                            "_postman_previewlanguage": "text",
+                            "header": [
+                                {
+                                    "key": "Content-Type",
+                                    "value": "text/plain"
+                                }
+                            ],
+                            "cookie": [],
+                            "responseTime": null,
+                            "body": ""
+                        }
+                    ]
+                }
+            ],
+            "id": "2c3a614d-3642-42da-9b55-23d59fb40227"
+        },
+        {
+            "name": "personal",
+            "item": [
+                {
+                    "name": "{id}",
+                    "item": [
+                        {
+                            "name": "PersonalById_GET",
+                            "id": "c5d94831-8600-47f6-8e10-fbd8fa3c7827",
+                            "request": {
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/personal/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "personal",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "83d6412d-2c3b-444d-bf8f-2f03efad11f1",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "e539dc33-5cfd-4fb6-a57e-b2fbaa852cde",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "GET",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/personal/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "personal",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        },
+                        {
+                            "name": "PersonalById_PUT",
+                            "id": "17b03373-2391-4f4b-b26e-637050139426",
+                            "request": {
+                                "method": "PUT",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/personal/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "personal",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "c6aa649a-485a-4797-be75-c8cd7b0f553a",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "2b289f87-1a6a-411f-993a-6b1e6ea4ebaf",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "PUT",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/personal/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "personal",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        },
+                        {
+                            "name": "PersonalById_DELETE",
+                            "id": "b947a000-1bd6-4119-abe8-c2c2ca5fc92d",
+                            "request": {
+                                "method": "DELETE",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/personal/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "personal",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "303ac8e3-7185-473e-9177-5a09bfd30292",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "12bb890d-caa6-4c36-b0b7-535244e91a96",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "DELETE",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/personal/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "personal",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "bb97c65f-0618-4fa3-819e-ee53bf8ac75c"
+                },
+                {
+                    "name": "Personal_POST",
+                    "id": "374db7f0-a993-4dce-8920-44092106ad25",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/personal",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "personal"
+                            ]
+                        }
+                    },
+                    "response": [
+                        {
+                            "id": "33f53e9c-5475-4d1c-afd9-9aebec95ee1d",
+                            "name": "response",
+                            "originalRequest": {
+                                "method": "POST",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/personal",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "personal"
+                                    ]
+                                }
+                            },
+                            "status": "OK",
+                            "code": 200,
+                            "_postman_previewlanguage": "text",
+                            "header": [
+                                {
+                                    "key": "Content-Type",
+                                    "value": "text/plain"
+                                }
+                            ],
+                            "cookie": [],
+                            "responseTime": null,
+                            "body": ""
+                        }
+                    ]
+                }
+            ],
+            "id": "df762509-6b3d-4897-b0cc-789e5253c510"
+        },
+        {
+            "name": "commercial",
+            "item": [
+                {
+                    "name": "{id}",
+                    "item": [
+                        {
+                            "name": "CommercialById_GET",
+                            "id": "9905ceae-4e9e-469e-8ace-95c0757210d3",
+                            "request": {
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/commercial/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "commercial",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "1f579d9c-fe1a-4653-adc4-9cf034b2f7f3",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "5d59421e-7294-46b6-bca1-e309774d8ae4",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "GET",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/commercial/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "commercial",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        },
+                        {
+                            "name": "CommercialById_PUT",
+                            "id": "592def4e-abc7-4e16-ab72-084262959bca",
+                            "request": {
+                                "method": "PUT",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/commercial/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "commercial",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "d615be18-2ae0-4115-8549-9df62b1f8435",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "5ecf2079-c4ef-4cc8-8b44-323168508b72",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "PUT",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/commercial/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "commercial",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        },
+                        {
+                            "name": "CommercialById_DELETE",
+                            "id": "6c8a7a88-7f70-4075-9ef2-ef4ce58b85f3",
+                            "request": {
+                                "method": "DELETE",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/commercial/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "commercial",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "8c4dd731-f102-4d21-afed-58c400ac8df3",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "3e50875b-6ad0-4b7a-a640-3541abc3c572",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "DELETE",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/commercial/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "commercial",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "9cf51803-ae59-4c43-bd25-6f9a5e32b44f"
+                },
+                {
+                    "name": "Commercial_POST",
+                    "id": "aefd33d3-f948-4ed7-b4dc-911cacebb1ea",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/commercial",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "commercial"
+                            ]
+                        }
+                    },
+                    "response": [
+                        {
+                            "id": "ccca7a3a-676e-4d89-b25a-5e8486f1299c",
+                            "name": "response",
+                            "originalRequest": {
+                                "method": "POST",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/commercial",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "commercial"
+                                    ]
+                                }
+                            },
+                            "status": "OK",
+                            "code": 200,
+                            "_postman_previewlanguage": "text",
+                            "header": [
+                                {
+                                    "key": "Content-Type",
+                                    "value": "text/plain"
+                                }
+                            ],
+                            "cookie": [],
+                            "responseTime": null,
+                            "body": ""
+                        }
+                    ]
+                }
+            ],
+            "id": "8754e1de-56c0-471a-9676-697e822cd3ad"
+        },
+        {
+            "name": "product",
+            "item": [
+                {
+                    "name": "{id}",
+                    "item": [
+                        {
+                            "name": "ProductById_GET",
+                            "id": "b5f7f840-0c4e-497f-9e5a-399124b7246d",
+                            "request": {
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/product/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "product",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "c0daac63-6a9e-4a99-9314-c853d3b0501d",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "f4a7a8f3-61de-4111-ba46-1ff83f7382ee",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "GET",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/product/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "product",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        },
+                        {
+                            "name": "ProductById_PUT",
+                            "id": "967c9add-8741-47ac-bac9-257374fe2d67",
+                            "request": {
+                                "method": "PUT",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/product/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "product",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "324ba3ec-30fc-45b0-99c6-8593a1ee5618",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "2f3c9ebc-8607-4ed5-9fa6-005307a424de",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "PUT",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/product/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "product",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        },
+                        {
+                            "name": "ProductById_DELETE",
+                            "id": "8e758d6c-c31e-4138-abcf-e7787fe4368f",
+                            "request": {
+                                "method": "DELETE",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/product/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "product",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "b83e024c-dbf8-4001-b136-57193873e2da",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "54224347-6b81-48bb-b512-da6ea907fe47",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "DELETE",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/product/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "product",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "dfea06fe-b2b2-4bfc-b18f-b8b071a10484"
+                },
+                {
+                    "name": "Product_POST",
+                    "id": "36056ef1-a9a8-45cd-8f2e-ca7849b1a82f",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/product",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "product"
+                            ]
+                        }
+                    },
+                    "response": [
+                        {
+                            "id": "5858a4b0-bcc3-48f9-bb02-9c8d96a444f8",
+                            "name": "response",
+                            "originalRequest": {
+                                "method": "POST",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/product",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "product"
+                                    ]
+                                }
+                            },
+                            "status": "OK",
+                            "code": 200,
+                            "_postman_previewlanguage": "text",
+                            "header": [
+                                {
+                                    "key": "Content-Type",
+                                    "value": "text/plain"
+                                }
+                            ],
+                            "cookie": [],
+                            "responseTime": null,
+                            "body": ""
+                        }
+                    ]
+                }
+            ],
+            "id": "49f25d58-b155-4cfb-93b8-66e7ec026a91"
+        },
+        {
+            "name": "coverage",
+            "item": [
+                {
+                    "name": "{id}",
+                    "item": [
+                        {
+                            "name": "CoverageById_GET",
+                            "id": "4c207ae5-92c8-48dd-9fa2-fef90c30523b",
+                            "request": {
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/coverage/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "coverage",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "9b7e6e1b-5e3e-4aeb-9b16-e2a0ba5b21e2",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "cc9800f1-e17b-4136-8751-15cb96f0f7c9",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "GET",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/coverage/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "coverage",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        },
+                        {
+                            "name": "CoverageById_PUT",
+                            "id": "d746732a-790d-4c4d-8a80-6f7a0139a566",
+                            "request": {
+                                "method": "PUT",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/coverage/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "coverage",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "7f4b7801-953e-46fe-a43d-611e76bc6c21",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "adf2d6c3-390a-4906-8633-08de2e68af85",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "PUT",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/coverage/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "coverage",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        },
+                        {
+                            "name": "CoverageById_DELETE",
+                            "id": "f6c0c51b-9328-4d24-a840-bdf767a687ad",
+                            "request": {
+                                "method": "DELETE",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/coverage/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "coverage",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "eb4ecd35-dfb7-46b7-8af5-aa422e135621",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "ca37d054-185a-4054-ac9b-78efae6bd3be",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "DELETE",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/coverage/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "coverage",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "10f85a50-e339-4083-8031-9aa5c2248231"
+                },
+                {
+                    "name": "Coverage_POST",
+                    "id": "7a00365e-a361-4113-9a10-a54a1a9f630f",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/coverage",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "coverage"
+                            ]
+                        }
+                    },
+                    "response": [
+                        {
+                            "id": "3232c871-84cc-4f45-a1d6-2276f73d34b1",
+                            "name": "response",
+                            "originalRequest": {
+                                "method": "POST",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/coverage",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "coverage"
+                                    ]
+                                }
+                            },
+                            "status": "OK",
+                            "code": 200,
+                            "_postman_previewlanguage": "text",
+                            "header": [
+                                {
+                                    "key": "Content-Type",
+                                    "value": "text/plain"
+                                }
+                            ],
+                            "cookie": [],
+                            "responseTime": null,
+                            "body": ""
+                        }
+                    ]
+                }
+            ],
+            "id": "0be4697f-70eb-47a1-af23-5d74b50ebb77"
+        },
+        {
+            "name": "driver",
+            "item": [
+                {
+                    "name": "{id}",
+                    "item": [
+                        {
+                            "name": "DriverById_GET",
+                            "id": "184ed3bf-cd3e-41ae-9ae1-72722387a794",
+                            "request": {
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/driver/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "driver",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "cd1855e6-b73c-45c3-83b3-263998ed07aa",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "536c4de0-b125-4bc6-a9bd-cfc896b171f3",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "GET",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/driver/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "driver",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        },
+                        {
+                            "name": "DriverById_PUT",
+                            "id": "a35b6109-6f9c-4c1f-a6e6-205fe232e343",
+                            "request": {
+                                "method": "PUT",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/driver/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "driver",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "cf15a06e-230b-4747-bcf6-ffd73bfb744b",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "4e00524b-cc93-4d22-8ea0-729c0537372f",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "PUT",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/driver/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "driver",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        },
+                        {
+                            "name": "DriverById_DELETE",
+                            "id": "d1c5ce2b-79d9-44cc-b4da-9aac060d9c11",
+                            "request": {
+                                "method": "DELETE",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/driver/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "driver",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "4c4e963d-53a0-4772-acd4-888b125d3381",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "6aeb07ee-a625-4f59-a4f9-c2ddb8f42cfa",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "DELETE",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/driver/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "driver",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "8cad87e3-9017-4fd1-a721-1448ab6345d7"
+                },
+                {
+                    "name": "Driver_POST",
+                    "id": "762cc5cd-ca7a-45fe-a394-da8f04155cab",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/driver",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "driver"
+                            ]
+                        }
+                    },
+                    "response": [
+                        {
+                            "id": "df13f1c0-0f6a-4434-bd20-c5b8474e4de5",
+                            "name": "response",
+                            "originalRequest": {
+                                "method": "POST",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/driver",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "driver"
+                                    ]
+                                }
+                            },
+                            "status": "OK",
+                            "code": 200,
+                            "_postman_previewlanguage": "text",
+                            "header": [
+                                {
+                                    "key": "Content-Type",
+                                    "value": "text/plain"
+                                }
+                            ],
+                            "cookie": [],
+                            "responseTime": null,
+                            "body": ""
+                        }
+                    ]
+                }
+            ],
+            "id": "a114f6a1-6f20-4331-80db-a35580e49299"
+        },
+        {
+            "name": "vehicle",
+            "item": [
+                {
+                    "name": "{id}",
+                    "item": [
+                        {
+                            "name": "VehicleById_GET",
+                            "id": "435d49ba-6126-4324-a4ad-78f2fabc34ea",
+                            "request": {
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/vehicle/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "vehicle",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "5dfbea2f-05dc-497e-a1d8-d7016687c672",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "2fdb2144-531b-471c-91df-40afd62c463e",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "GET",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/vehicle/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "vehicle",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        },
+                        {
+                            "name": "VehicleById_PUT",
+                            "id": "288df452-91ac-4c74-b922-516f74e08e08",
+                            "request": {
+                                "method": "PUT",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/vehicle/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "vehicle",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "7e7bfadd-63e5-43dc-863b-1dbe9d4409ae",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "79f34651-fba0-44e2-bf9e-e5f0b87c4082",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "PUT",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/vehicle/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "vehicle",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        },
+                        {
+                            "name": "VehicleById_DELETE",
+                            "id": "c3026641-207f-4cee-9af3-0f7c5d2b5460",
+                            "request": {
+                                "method": "DELETE",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/vehicle/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "vehicle",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "b65021f1-5ffb-48fe-b12e-9ffc4590998a",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "fa586911-92fa-45fb-afae-65f79cd693b2",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "DELETE",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/vehicle/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "vehicle",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "4af6e2a5-a02a-4d2a-9f75-1e1f8142dbc1"
+                },
+                {
+                    "name": "Vehicle_POST",
+                    "id": "4928de4b-5fd2-493f-9a97-59cd78b04e74",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/vehicle",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "vehicle"
+                            ]
+                        }
+                    },
+                    "response": [
+                        {
+                            "id": "67c39d6e-274f-4a47-a51f-3412807699bd",
+                            "name": "response",
+                            "originalRequest": {
+                                "method": "POST",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/vehicle",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "vehicle"
+                                    ]
+                                }
+                            },
+                            "status": "OK",
+                            "code": 200,
+                            "_postman_previewlanguage": "text",
+                            "header": [
+                                {
+                                    "key": "Content-Type",
+                                    "value": "text/plain"
+                                }
+                            ],
+                            "cookie": [],
+                            "responseTime": null,
+                            "body": ""
+                        }
+                    ]
+                }
+            ],
+            "id": "883f710b-9ff1-42fb-9f48-9059a8fdd7ef"
+        },
+        {
+            "name": "beneficiary",
+            "item": [
+                {
+                    "name": "{id}",
+                    "item": [
+                        {
+                            "name": "BeneficiaryById_GET",
+                            "id": "de44de5e-2ad2-4ba3-829e-de88fb852b7a",
+                            "request": {
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/beneficiary/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "beneficiary",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "5487cd0b-4b3e-4881-9c1f-4c081295d086",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "923a5c1d-3a59-4f08-ab2c-d79153d0be51",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "GET",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/beneficiary/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "beneficiary",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        },
+                        {
+                            "name": "BeneficiaryById_PUT",
+                            "id": "ac5f0649-59d8-45ea-81bf-dd12b73cc35f",
+                            "request": {
+                                "method": "PUT",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/beneficiary/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "beneficiary",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "a5274067-40aa-42b0-8c71-97f023b0114b",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "e4445c12-93f6-47aa-8c58-ecc4d532f9e9",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "PUT",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/beneficiary/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "beneficiary",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        },
+                        {
+                            "name": "BeneficiaryById_DELETE",
+                            "id": "ffcadb98-00f5-46dc-b6b5-908d4a281637",
+                            "request": {
+                                "method": "DELETE",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/beneficiary/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "beneficiary",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "1032f951-07c6-4fc3-9d00-fb38a86f5b15",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "5e9d4090-ed8d-48f2-af21-67dd7450a466",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "DELETE",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/beneficiary/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "beneficiary",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "cf7e60c5-a9e0-403e-9c2d-abd10c00245a"
+                },
+                {
+                    "name": "Beneficiary_POST",
+                    "id": "1752d7e6-a4bc-403a-a557-79ac6352ca69",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/beneficiary",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "beneficiary"
+                            ]
+                        }
+                    },
+                    "response": [
+                        {
+                            "id": "5c2bab4c-26c4-4d52-b7c5-e6e3fc989f8d",
+                            "name": "response",
+                            "originalRequest": {
+                                "method": "POST",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/beneficiary",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "beneficiary"
+                                    ]
+                                }
+                            },
+                            "status": "OK",
+                            "code": 200,
+                            "_postman_previewlanguage": "text",
+                            "header": [
+                                {
+                                    "key": "Content-Type",
+                                    "value": "text/plain"
+                                }
+                            ],
+                            "cookie": [],
+                            "responseTime": null,
+                            "body": ""
+                        }
+                    ]
+                }
+            ],
+            "id": "c7105049-c7af-4401-a01f-987a6476e73c"
+        },
+        {
+            "name": "receipt",
+            "item": [
+                {
+                    "name": "{id}",
+                    "item": [
+                        {
+                            "name": "ReceiptById_GET",
+                            "id": "64d43bcc-2fa2-4d33-86fd-3806a622a5e8",
+                            "request": {
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/receipt/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "receipt",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "1f8b170c-1a22-45d0-8fc5-291722984326",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "aa16e91c-5c6c-40e5-8386-4a615d931d33",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "GET",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/receipt/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "receipt",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        },
+                        {
+                            "name": "ReceiptById_PUT",
+                            "id": "19df2b20-0187-432b-a52f-289d7aae7a21",
+                            "request": {
+                                "method": "PUT",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/receipt/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "receipt",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "5328d499-b965-4354-98a0-81eac4269ae6",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "c0a1c917-e824-45b0-9ae9-e506baa7c6dd",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "PUT",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/receipt/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "receipt",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        },
+                        {
+                            "name": "ReceiptById_DELETE",
+                            "id": "bd3a249a-f961-4f28-8be2-53c3f19e83b9",
+                            "request": {
+                                "method": "DELETE",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/receipt/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "receipt",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "e49700a9-0fd8-4ae8-9e52-b4ce9f4f8dee",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "860a3582-2c69-4b80-b5b6-40c5f2233152",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "DELETE",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/receipt/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "receipt",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "9c60504a-c513-442b-926d-ee126e20b8b1"
+                },
+                {
+                    "name": "Receipt_POST",
+                    "id": "24dfe28f-c599-4815-96f2-59f4588bb750",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/receipt",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "receipt"
+                            ]
+                        }
+                    },
+                    "response": [
+                        {
+                            "id": "6e169f9e-5fb6-40ea-ab45-7d5faeab3f21",
+                            "name": "response",
+                            "originalRequest": {
+                                "method": "POST",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/receipt",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "receipt"
+                                    ]
+                                }
+                            },
+                            "status": "OK",
+                            "code": 200,
+                            "_postman_previewlanguage": "text",
+                            "header": [
+                                {
+                                    "key": "Content-Type",
+                                    "value": "text/plain"
+                                }
+                            ],
+                            "cookie": [],
+                            "responseTime": null,
+                            "body": ""
+                        }
+                    ]
+                }
+            ],
+            "id": "3cee152e-686f-4592-88da-019d529ea91f"
+        },
+        {
+            "name": "claim",
+            "item": [
+                {
+                    "name": "{id}",
+                    "item": [
+                        {
+                            "name": "ClaimById_GET",
+                            "id": "b8ec4e57-74ca-4777-9417-a84933b93b00",
+                            "request": {
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/claim/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "claim",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "fd1c602e-c5de-4538-accf-37c322a20d16",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "53f94e80-35ba-4a56-ad57-e004cfae74c5",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "GET",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/claim/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "claim",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "json",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "application/json"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": "{\n \"claimNumber\": \"Example\",\n \"fnol\": \"ut et\",\n \"loss-date\": \"reprehenderit ad est enim nisi\"\n}"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "ClaimById_PUT",
+                            "id": "b778a7f7-c0ea-4687-bb40-d5052bff489e",
+                            "request": {
+                                "method": "PUT",
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "body": {
+                                    "mode": "raw",
+                                    "raw": "{\n    \"claimNumber\": \"Example\",\n    \"fnol\": \"ut et\",\n    \"loss-date\": \"reprehenderit ad est enim nisi\"\n}"
+                                },
+                                "url": {
+                                    "raw": "{{baseUrl}}/claim/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "claim",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "d7351a5a-f60f-4519-80d2-495e266092c3",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "84388fae-4303-4676-bf26-8a6e089f685b",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "PUT",
+                                        "header": [],
+                                        "body": {
+                                            "mode": "raw",
+                                            "raw": "{\n    \"claimNumber\": \"Example\",\n    \"fnol\": \"ut et\",\n    \"loss-date\": \"reprehenderit ad est enim nisi\"\n}"
+                                        },
+                                        "url": {
+                                            "raw": "{{baseUrl}}/claim/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "claim",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "json",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "application/json"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": "{\n \"claimNumber\": \"Example\",\n \"fnol\": \"ut et\",\n \"loss-date\": \"reprehenderit ad est enim nisi\"\n}"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "ClaimById_DELETE",
+                            "id": "6e6cd2ab-d7f8-4195-945d-447d6fadd66a",
+                            "request": {
+                                "method": "DELETE",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/claim/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "claim",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "29affc01-bfbe-49c5-8d04-b0831e6f5d9a",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "07353dd0-8b2f-4902-9791-6b2659be57ed",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "DELETE",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/claim/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "claim",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "No Content",
+                                    "code": 204,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "78aef764-95a5-468a-bfb7-e6b444927606"
+                },
+                {
+                    "name": "Claim_POST",
+                    "id": "912442b6-facf-4164-a16b-4e9804905c28",
+                    "request": {
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"claimNumber\": \"Example\",\n    \"fnol\": \"ut et\",\n    \"loss-date\": \"reprehenderit ad est enim nisi\"\n}"
+                        },
+                        "url": {
+                            "raw": "{{baseUrl}}/claim",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "claim"
+                            ]
+                        }
+                    },
+                    "response": [
+                        {
+                            "id": "1a3b9f1c-e662-4a68-9427-de23dc730a92",
+                            "name": "response",
+                            "originalRequest": {
+                                "method": "POST",
+                                "header": [],
+                                "body": {
+                                    "mode": "raw",
+                                    "raw": "{\n    \"claimNumber\": \"Example\",\n    \"fnol\": \"ut et\",\n    \"loss-date\": \"reprehenderit ad est enim nisi\"\n}"
+                                },
+                                "url": {
+                                    "raw": "{{baseUrl}}/claim",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "claim"
+                                    ]
+                                }
+                            },
+                            "status": "Created",
+                            "code": 201,
+                            "_postman_previewlanguage": "json",
+                            "header": [
+                                {
+                                    "key": "Content-Type",
+                                    "value": "application/json"
+                                }
+                            ],
+                            "cookie": [],
+                            "responseTime": null,
+                            "body": "{\n \"claimNumber\": \"Example\",\n \"fnol\": \"ut et\",\n \"loss-date\": \"reprehenderit ad est enim nisi\"\n}"
+                        }
+                    ]
+                }
+            ],
+            "id": "b0f29341-d72a-4dec-92ba-9f91400b06a7"
+        },
+        {
+            "name": "premium-bordereau",
+            "item": [
+                {
+                    "name": "{id}",
+                    "item": [
+                        {
+                            "name": "PremiumBordereauById_GET",
+                            "id": "95d59ffe-ed63-4c14-9ed2-f9f9016f304a",
+                            "request": {
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/premium-bordereau/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "premium-bordereau",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "89db566e-9d8d-46ac-866c-8e4bd7cdfc9c",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "f408a16d-4c54-41b9-9941-e056eda98ebc",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "GET",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/premium-bordereau/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "premium-bordereau",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        },
+                        {
+                            "name": "PremiumBordereauById_PUT",
+                            "id": "63da972f-3ca5-48b8-b444-8a2d8d6f7abf",
+                            "request": {
+                                "method": "PUT",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/premium-bordereau/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "premium-bordereau",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "97eb797f-2c43-44e0-a8b7-7d46f2dc5312",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "5cd33b0e-82f4-49f2-b1ee-15b43a7a5851",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "PUT",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/premium-bordereau/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "premium-bordereau",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        },
+                        {
+                            "name": "PremiumBordereauById_DELETE",
+                            "id": "3a4b0db7-6029-47dc-984a-2ed03888abb0",
+                            "request": {
+                                "method": "DELETE",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/premium-bordereau/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "premium-bordereau",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "47945266-5c6c-44e6-9f74-92156eb6e4a5",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "bdd2ffcb-31b6-4abf-b182-3baf38a0d458",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "DELETE",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/premium-bordereau/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "premium-bordereau",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "ffaed883-2674-43c6-9f1c-f721e4d7357c"
+                },
+                {
+                    "name": "PremiumBordereau_POST",
+                    "id": "9bd19f15-75f9-459b-98dc-2b4b626a7a32",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/premium-bordereau",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "premium-bordereau"
+                            ]
+                        }
+                    },
+                    "response": [
+                        {
+                            "id": "385f0606-f688-4dfc-9aac-bb8d6bc2f260",
+                            "name": "response",
+                            "originalRequest": {
+                                "method": "POST",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/premium-bordereau",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "premium-bordereau"
+                                    ]
+                                }
+                            },
+                            "status": "OK",
+                            "code": 200,
+                            "_postman_previewlanguage": "text",
+                            "header": [
+                                {
+                                    "key": "Content-Type",
+                                    "value": "text/plain"
+                                }
+                            ],
+                            "cookie": [],
+                            "responseTime": null,
+                            "body": ""
+                        }
+                    ]
+                }
+            ],
+            "id": "6533a8f9-34b6-43e1-86a4-f60f07df1530"
+        },
+        {
+            "name": "claims-bordereau",
+            "item": [
+                {
+                    "name": "{id}",
+                    "item": [
+                        {
+                            "name": "ClaimsBordereauById_GET",
+                            "id": "8b344472-393f-4f64-b6dd-410d58277acc",
+                            "request": {
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/claims-bordereau/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "claims-bordereau",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "18e38f4d-f35e-4a94-b672-48547b98fb94",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "2771ec94-1273-4080-a806-4643806ea997",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "GET",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/claims-bordereau/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "claims-bordereau",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        },
+                        {
+                            "name": "ClaimsBordereauById_PUT",
+                            "id": "90a9074c-6605-41e8-8c4e-8ee8a6aa0883",
+                            "request": {
+                                "method": "PUT",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/claims-bordereau/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "claims-bordereau",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "18bd126a-63c8-4892-bb03-75020cf01a48",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "17c0aa00-a228-463a-a0db-a75a4914ff80",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "PUT",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/claims-bordereau/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "claims-bordereau",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        },
+                        {
+                            "name": "ClaimsBordereauById_DELETE",
+                            "id": "e4203b91-4f6b-468a-a659-6bb2f5842459",
+                            "request": {
+                                "method": "DELETE",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/claims-bordereau/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "claims-bordereau",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "e6ea3006-cacc-4a55-9759-8fd68c9c5513",
+                                            "key": "id",
+                                            "value": "nostrud Lorem consectetur",
+                                            "description": "(Required) "
+                                        }
+                                    ]
+                                }
+                            },
+                            "response": [
+                                {
+                                    "id": "f3bb152d-8fa4-4e58-918f-771d49b2d5c1",
+                                    "name": "response",
+                                    "originalRequest": {
+                                        "method": "DELETE",
+                                        "header": [],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/claims-bordereau/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "claims-bordereau",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "0be42b51-4042-4f7e-b7d7-802fa9587622"
+                },
+                {
+                    "name": "ClaimsBordereau_POST",
+                    "id": "3ba1ddcb-f97e-4698-9bfb-c5819757dd17",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/claims-bordereau",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "claims-bordereau"
+                            ]
+                        }
+                    },
+                    "response": [
+                        {
+                            "id": "b63d4f43-74eb-4214-b1a9-1731dd5e6598",
+                            "name": "response",
+                            "originalRequest": {
+                                "method": "POST",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/claims-bordereau",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "claims-bordereau"
+                                    ]
+                                }
+                            },
+                            "status": "OK",
+                            "code": 200,
+                            "_postman_previewlanguage": "text",
+                            "header": [
+                                {
+                                    "key": "Content-Type",
+                                    "value": "text/plain"
+                                }
+                            ],
+                            "cookie": [],
+                            "responseTime": null,
+                            "body": ""
+                        }
+                    ]
+                }
+            ],
+            "id": "4a32876a-d1c3-479c-b239-393536346bab"
+        }
+    ],
+    "variable": [
+        {
+            "id": "4b911d44-f072-44a3-b81b-6d3d9971e424",
+            "key": "baseUrl",
+            "value": "http://localhost:8081",
+            "type": "string"
+        }
+    ]
+}
